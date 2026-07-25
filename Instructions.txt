@@ -6,7 +6,8 @@ git clone git@github.com:dorigoa/mlx-jaccl-cluster.git
 
 conda create -n mlx python=3.14 -y
 conda activate mlx
-python -m pip install --upgrade pip wheel setuptools mlx mlx-lm huggingface_hub transformers fastapi uvicorn
+python -m pip install --upgrade pip wheel setuptools
+python -m pip install mlx mlx-lm huggingface_hub transformers fastapi uvicorn
 
 VERIFICA:
 
