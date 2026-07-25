@@ -1,7 +1,7 @@
 INIZIO:
 --------
 Su entrambi i Mac:
-git clone https://github.com/alvise721604/mlx-jaccl-cluster.git
+git clone git@github.com:dorigoa/mlx-jaccl-cluster.git
 	cd mlx-jaccl-cluster
 
 conda create -n mlx python=3.14 -y
